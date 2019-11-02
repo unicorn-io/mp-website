@@ -2,7 +2,6 @@ from ada_mp import app
 from flask import render_template
 from flask import Flask
 from flask import request
-import requests
 from flask import jsonify
 from ada_mp.checksum import generate_checksum
 from ada_mp.checksum import verify_checksum
